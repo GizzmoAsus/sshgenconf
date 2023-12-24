@@ -1,0 +1,75 @@
+# Some dev vm 1
+Host 10.0.2.2
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 10.0.2.2
+  User myuser
+
+# Some dev vm 2
+Host 10.0.2.3
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 10.0.2.3
+  User myuser
+
+# Some dev vm 3
+Host 10.0.2.4
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 10.0.2.4
+  User myuser
+
+# Some local vm 1
+Host personal1
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 192.168.0.122
+  User myuser
+
+# Some other vm 2
+Host personal2
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 192.168.0.123
+  User myuser
+
+# Some other vm 3
+Host personal3
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 192.168.0.124
+  User myuser
+
+# A github service
+Host github.com
+  PerferredAuthentications publickey
+  IdentityFile ~/.ssh/keys/example_key_5
+
+# Some production vm 1
+Host 10.0.1.2
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.1.2
+  User myuser
+
+# Some production vm 2
+Host 10.0.1.3
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.1.3
+  User myuser
+
+# Some production vm 3
+Host 10.0.1.4
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.1.4
+  User myuser
+# Some staging vm 1
+Host 10.0.3.2
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.3.2
+  User myuser
+
+# Some staging vm 2
+Host 10.0.3.3
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.3.3
+  User myuser
+
+# Some staging vm 3
+Host 10.0.3.4
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.3.4
+  User myuser
