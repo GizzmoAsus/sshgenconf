@@ -1,0 +1,22 @@
+# Some local vm 1
+Host personal1
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 192.168.0.122
+  User myuser
+
+# Some other vm 2
+Host personal2
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 192.168.0.123
+  User myuser
+
+# Some other vm 3
+Host personal3
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 192.168.0.124
+  User myuser
+
+# A github service
+Host github.com
+  PerferredAuthentications publickey
+  IdentityFile ~/.ssh/keys/example_key_5

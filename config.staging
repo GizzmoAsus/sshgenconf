@@ -1,0 +1,17 @@
+# Some staging vm 1
+Host 10.0.3.2
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.3.2
+  User myuser
+
+# Some staging vm 2
+Host 10.0.3.3
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.3.3
+  User myuser
+
+# Some staging vm 3
+Host 10.0.3.4
+  IdentityFile ~/.ssh/keys/example_key_2
+  HostName 10.0.3.4
+  User myuser

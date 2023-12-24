@@ -1,0 +1,17 @@
+# Some dev vm 1
+Host 10.0.2.2
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 10.0.2.2
+  User myuser
+
+# Some dev vm 2
+Host 10.0.2.3
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 10.0.2.3
+  User myuser
+
+# Some dev vm 3
+Host 10.0.2.4
+  IdentityFile ~/.ssh/keys/example_key_4
+  HostName 10.0.2.4
+  User myuser
