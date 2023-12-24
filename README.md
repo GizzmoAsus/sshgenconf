@@ -20,5 +20,5 @@ Please note the keys and configs in this repo are for demo only and do not relat
 To run the script, there's a couple of steps required:
 
 1. Create your `config.*` files
-2. in the directory, execute `$ ./genconf.sh` or `$ sh genconf.sh` if you've not made it executable via `chmod +x genconf.sh`
+2. In the directory, execute `$ ./genconf.sh` or `$ sh genconf.sh` if you've not made it executable via `chmod +x genconf.sh`
 3. Validate the output in `config`
